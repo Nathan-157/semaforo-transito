@@ -1,0 +1,373 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: #cecece;
+}
+
+#fundo_semaforo{
+    margin-left: 500px;
+    margin-top: 15px;
+    background-color: rgb(73, 73, 73);
+    width: 420px;
+    height: 750px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@keyframes vermelho{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+.vermelho{
+    background-color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-name: vermelho;
+    animation-duration: 13s;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes amarelo{
+    from{
+background-color: yellow;
+    }
+    to{
+background-color: yellow;
+    }
+}
+
+.amarelo{
+    background-color:white;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-name: amarelo;
+    animation-delay: 12s;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes verde{
+    from{
+background-color: green;
+    }
+    to{
+    background-color: green;
+    }
+}
+
+.verde{
+    background-color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-name: verde;
+    animation-delay: 16s;
+    animation-duration: 12s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra1{
+    from{
+    background-color: white;
+    }
+    to{
+    background-color: blue;
+    }
+}
+
+.barra1{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    right: 540px;
+    animation-name: barra1;
+    animation-delay: 25s;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra2{
+    from{
+background-color: white;
+    }
+    to{
+       background-color: blue; 
+    }
+}
+.barra2{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    right: 540px;
+    animation-name: barra2;
+    animation-delay: 24s;
+    animation-duration: 7s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra3{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+.barra3{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    right: 540px;
+    animation-name: barra3;
+    animation-delay: 23s;
+    animation-duration: 8s;
+    animation-direction: alternate-reverse;
+}
+@keyframes barra4{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+.barra4{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    right: 540px;
+    animation-name: barra4;
+    animation-delay: 22s;
+    animation-duration: 9s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra5{
+    from{
+background-color: white;
+    }
+    to{
+background-color: blue;
+    }
+}
+
+.barra5{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 450px;
+    right: 540px;
+    animation-name: barra5;
+    animation-delay: 21s;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra6{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+.barra6{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    right: 540px;
+    animation-name: barra6;
+    animation-delay: 20s;
+    animation-duration: 11s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra7{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+.barra7{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 550px;
+    right: 540px;
+    animation-name: barra7;
+    animation-delay: 19s;
+    animation-duration: 12s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra8{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+.barra8{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 600px;
+    right: 540px;
+    animation-name: barra8;
+    animation-delay: 18s;
+    animation-duration: 13s;
+    animation-direction: alternate-reverse;
+}
+
+    @keyframes barra9{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+.barra9{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 650px;
+    right: 540px;
+    animation-name: barra9;
+    animation-delay: 17s;
+    animation-duration: 14s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes barra10{
+    from{
+background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
+.barra10{
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: white;
+    position: absolute;
+    top: 700px;
+    right: 540px;
+    animation-name: barra10;
+    animation-delay: 16s;
+    animation-duration: 15s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count:infinite 5s;
+}
+
+h1{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+
+}
+
+#pessoas_cemafaro{
+    background-color: rgb(73, 73, 73);
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    border-radius: 20px;
+}
+
+@keyframes pare{
+    from{
+background-color: red;
+    }
+    to{
+background-color: red;
+    }
+}
+
+.pare{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 45px;
+    animation-name: pare;
+    animation-duration: 16s;
+}
+
+@keyframes andar{
+    from{
+background-color: green;
+    }
+    to{
+background-color: green;
+    }
+}
+
+.andar{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 45px;
+    animation-name: andar;
+    animation-duration: 12s;
+    animation-delay: 16s;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    font-size: 35pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
